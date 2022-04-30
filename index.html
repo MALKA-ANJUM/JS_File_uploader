@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploader</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e80646ae69.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <header><span style="color: #6990f2;">UPLOAD</span>Files</header>
+            <form action="#">
+                <input type="file" class="file-input" hidden>
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>choose file to upload</p>
+            </form>
+            <section class="progress-area">
+                <ul>
+                    <li class="row">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <div class="content">
+                            <div class="details">
+                                <span class="name">img.png Uploading</span>
+                                <span class="percent">50%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="uploaded-area">
+                <ul>
+                    <li class="row">
+                        <div class="content">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <div class="details">
+                                <span class="name">girl.png Uploading</span>
+                                <span class="size">17KB</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-check"></i>
+                    </li>
+                    <li class="row">
+                        <div class="content">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <div class="details">
+                                <span class="name">tree.png Uploading</span>
+                                <span class="size">43KB</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-check"></i>
+                    </li>
+                    <li class="row">
+                        <div class="content">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <div class="details">
+                                <span class="name">flower.png Uploading</span>
+                                <span class="size">30KB</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-check"></i>
+                    </li>
+                </ul>
+            </section>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
