@@ -13,7 +13,7 @@ body{
     background: #6990f2;
 }
 header{
-    color: #6990f2;
+    
     font-weight: 600;
     text-align: center;
     font-size: 1.5em;
@@ -48,7 +48,7 @@ form p{
     text-transform: capitalize;
 }
 section .row{
-    
+    background: #e9f0ff;
     margin-bottom: 1em;
     list-style: none;
     padding: 1em 1.25em;
@@ -73,7 +73,6 @@ section .details span{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 7px;
-    
 }
 .progress-area .progress-bar{
     height: 0.5em;
@@ -81,17 +80,20 @@ section .details span{
     background: #fff;
     margin-bottom: 4px;
     border-radius: 2em;
-    background: #e9f0ff;
 }
 .progress-bar .progress{
     height: 100%;
     width: 50%;
     background: #6990f2;
     border-radius: inherit;
+   
 }
 .uploaded-area{
-    max-height: 150px;
+    max-height: 230px;
     overflow-y: scroll;
+}
+.uploaded-area.onprogress{
+    max-height: 150px;
 }
 .uploaded-area .row .content{
     display: flex;
